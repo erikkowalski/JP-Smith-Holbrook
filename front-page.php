@@ -7,9 +7,11 @@
 <?php get_search_form(); ?>
 <?php endif; ?>
 
-section
-
-<?php the_field('idx_search');?>
+<section class="home-search">
+	<aside class="search-box">
+		<?php the_field('idx_search');?>
+	</aside>
+</section>
 
 <?php while (have_posts()) : the_post(); ?>
 <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
