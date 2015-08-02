@@ -22,11 +22,15 @@
 
 	.home-search {
 		position: relative;
+
 		.search-box {
 			position: absolute;
 			z-index: 1000;
-			top: 50px;
-			left: 25%;
+			width: 100%;
+			max-width: 260px;
+			top: 90px;
+			margin-left: 30px;
+			display: inline-block;
 			.idx-omnibar-mini {
 			button, input {
 				-webkit-appearance: none;
