@@ -11,6 +11,28 @@
 	<aside class="search-box">
 		<?php the_field('idx_search');?>
 	</aside>
+	<!-- Carousel
+================================================== -->
+	<div id="myCarousel" class="carousel fade" data-ride="carousel">
+		<!-- Indicators -->
+
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img  src="<?php the_field('silder_img_one'); ?>" alt="First slide">
+			</div>
+
+
+			<div class="item">
+				<img  src="<?php  the_field('silder_img_two'); ?>" alt="Second slide">
+			</div>
+
+			<div class="item">
+				<img  src="<?php  the_field('silder_img_three'); ?>" alt="Second slide">
+			</div>
+		</div>
+
+	</div><!-- /.carousel -->
 </section>
 
 <?php while (have_posts()) : the_post(); ?>
