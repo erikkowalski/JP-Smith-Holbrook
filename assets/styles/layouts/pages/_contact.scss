@@ -1,0 +1,64 @@
+.contact {
+
+	.navbar{
+		margin-bottom: 0;
+	}
+
+
+		.main {
+			margin: 0;
+			padding: 0;
+		}
+
+
+
+
+		.page-header {
+
+
+			color: white;
+			text-shadow: 1px 2px 0 $brand-primary;
+			background-attachment:fixed;
+			background-size: contain;
+			margin: 0 0 0em 0;
+			transition: padding 1s;
+			padding: 3em 2em 2em 2em ;
+			background-image: url(../images/contact-header.jpg);
+			border-bottom: 5px solid black;
+			h1 {
+				display: none;
+				transition: font-size 1s;
+				font-size: 4em;
+				margin: 0;
+
+			}
+			@media (min-width:$screen-sm){
+				padding: 7em 4em 4em 4em ;
+
+			}
+			@media (min-width:$screen-md){
+				padding: 10em 6em 6em 6em ;
+
+			}
+}
+	.tittle {
+		text-align: center;
+		//text-transform: uppercase;
+		transition: font-size 1s;
+		font-size: 4em;
+		margin: 0;
+		font-family: $font-family-serif;
+		@media (min-width:$screen-sm){
+			padding: 0.3em;
+				font-size: 5em;
+
+		}
+		@media (min-width:$screen-md){
+
+				font-size: 6em;
+
+		}
+	}
+
+
+}

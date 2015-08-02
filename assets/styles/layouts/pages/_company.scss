@@ -1,0 +1,38 @@
+.page-template-template-company {
+	.main {
+		padding: 0;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+	}
+
+	.company-header {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+}
+
+.company {
+	@media (max-width:$screen-sm){
+	padding: 1em;
+	}
+	.page-header{
+		text-align: center;
+			h1 {
+				font-size: 3em;
+				font-family: $font-family-serif;
+				@media (min-width:$screen-sm){
+					font-size: 5em;
+				}
+			}
+
+	}
+}
+
+.company {
+	.content {
+		max-width: 660px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,49 @@
+.our-performance {
+	margin: 0;
+	padding: 0;
+
+	.main {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+	}
+
+	img {
+		padding: 0 1em 1em 0;
+	}
+
+
+
+	.map {
+		margin-top: 20px;
+	}
+
+	.new-build {
+		margin-bottom: 1em;
+		background: #e3e3e3;
+		padding: 1em 1em 0 1em;
+
+		h3 {
+			text-transform: uppercase;
+			margin-top: 0;
+		}
+
+		ul{
+			float: left;
+			padding:0 1.5em;
+
+			li {
+				font-size: 1.2em;
+				line-height: 1.3em;
+				list-style:circle;
+			}
+		}
+	}
+
+	.last-p {
+		clear: both;
+	}
+}

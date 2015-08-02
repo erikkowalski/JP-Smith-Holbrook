@@ -1,0 +1,29 @@
+.mobil-number {
+	padding-top: 2em;
+	a {color: white;}
+}
+
+.navbar-brand {
+	padding: 20px 15px;
+	@media (min-width:$screen-md){
+		padding: 10px 15px;
+	}
+}
+
+.navbar-default {
+	.navbar-nav>li>a{
+		font-size: 1.2em;
+		letter-spacing: 0.05em;
+		@media(min-width:$screen-md){
+			font-weight: 300;
+			font-size: 1.3em;
+		}
+
+	}
+	.navbar-nav>li>a:focus{
+
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+
+	}
+}

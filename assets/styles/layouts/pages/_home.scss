@@ -1,0 +1,250 @@
+.home {
+
+		background-image: url(../images/concrete_seamless.png);
+
+
+	.main {
+		background: white;
+	}
+    .navbar {
+        margin-bottom: 0;
+        border-bottom: 15px solid rgb(195, 195, 195);
+    }
+
+    .main {
+    padding: 0;
+}
+
+    .wrap {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 768px) {
+        .carousel-control .glyphicon-triangle-right, .carousel-control .icon-next {
+            margin-right: -15px;
+        }
+    }
+    @media screen and (min-width: 768px){
+        .carousel-control .glyphicon-triangle-left, .carousel-control .glyphicon-triangle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+            width: 30px;
+            height: 30px;
+            margin-top: -15px;
+            font-size: 30px;
+        }
+    }
+    .carousel-control .glyphicon-triangle-right, .carousel-control .icon-next {
+        right: 50%;
+        margin-right: -10px;
+    }
+    .carousel-control .glyphicon-triangle-left, .carousel-control .glyphicon-triangle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        display: inline-block;
+    }
+
+    // ------ Carousel Transition Style - - - - - - - - - -
+
+    .carousel.fade {
+        opacity: 1;
+
+        .item {
+            -moz-transition: opacity ease-in-out .7s;
+            -o-transition: opacity ease-in-out .7s;
+            -webkit-transition: opacity ease-in-out .7s;
+            transition: opacity ease-in-out .7s;
+            left: 0 !important;
+            opacity: 0;
+            top:0;
+            position:absolute;
+            width: 100%;
+            display:block !important;
+            z-index:1;
+            &:first-child{
+                top:auto;
+                position:relative;
+            }
+
+            &.active {
+                opacity: 1;
+                -moz-transition: opacity ease-in-out .7s;
+                -o-transition: opacity ease-in-out .7s;
+                -webkit-transition: opacity ease-in-out .7s;
+                transition: opacity ease-in-out .7s;
+                z-index:2;
+            }
+        }
+    } // <--End Carousel Transition Style - - - - - - - - - -
+
+  .slider-nav {
+	  a {
+
+		  display: inline-block;
+		  background:rgba($brand-primary, .85);
+		  transition: background 1s;
+		  @media (max-width:$screen-xs){
+			  font-size: 1.6em;
+			  text-align: center;
+			  padding: 0.5em;
+			  margin-bottom: 0.5em;
+			  color: white;
+			  padding-left: 30px;
+
+
+		  }
+
+	  }
+	  @media (max-width:$screen-xs){
+
+		  border-top: 10px solid rgb(195, 195, 195);
+		  border-bottom: 10px solid rgb(195, 195, 195);
+	  }
+
+        @media (min-width:$screen-sm){
+        position: absolute;
+
+        bottom: 0px;
+        left: 50%;
+        z-index: 1060;
+        margin-left: -380px;
+            @media (min-width:$screen-md){
+                margin-left: -450px;
+            }
+            @media (min-width:$screen-lg){
+                left: 42%;
+                margin-left: -430px;
+            }
+
+            li {
+                margin: 0 14px;
+
+            a {
+					padding: 20px;
+					background:rgba($brand-primary, .85);
+					color: white;
+                &:hover {
+                    transition: background 1s;
+                    background:rgba($brand-success, .85);
+                }
+                color: white;
+                padding: 20px;
+                @media (min-width:$screen-md){
+                   font-size: 1.3em;
+                }
+                    @media (min-width:$screen-lg){
+                        font-size: 1.4em;
+                        letter-spacing: 0.1em;
+                    }
+            }
+            }
+        }
+
+    } // - - - </.slider-nav>
+
+    // News Feed
+
+.news-feed {
+	h2 {
+    text-align: center;
+    font-size: 3em;
+    @media (min-width:$screen-sm){
+    padding: 0.5em 0;
+		 font-weight: 200;
+    }
+    color: $brand-primary;
+}
+	h3 {
+		text-align: center;
+		font-family: $font-family-serif;
+		font-size: 2.5em;
+		padding: 0.8em;
+		letter-spacing: 0.01em;
+		//background: $gray-light;
+		background: rgb(239,239,239); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(239,239,239,1) 0%, rgba(168,168,168,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,239,239,1)), color-stop(100%,rgba(168,168,168,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(239,239,239,1) 0%,rgba(168,168,168,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(239,239,239,1) 0%,rgba(168,168,168,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(239,239,239,1) 0%,rgba(168,168,168,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(239,239,239,1) 0%,rgba(168,168,168,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#a8a8a8',GradientType=0 ); /* IE6-9 */
+
+
+		color: white;
+		border-top: 5px solid rgb(250, 250, 250);
+		border-bottom: 5px solid rgb(109, 109, 109);
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.47);
+
+				@media (min-width:$screen-sm){
+					padding: 1.5em 0 0.4em 0;
+					font-size: 4em;
+					margin: 1em 0 0 0;
+				}
+
+	}
+
+	img {
+		margin-bottom: 20px;
+	}
+
+	border-bottom: 50px solid white;
+}
+
+aside {
+    max-width: 1160px;
+    margin: 0 auto;
+    .entry-title {
+        font-size: 1.6em;
+        a{ color: #454545;}
+        text-transform: uppercase;
+        line-height: 1.15em;
+        @media (max-width:$screen-xs){
+            font-weight: 900;
+        }
+    }
+
+    .entry-content {
+        //font-size: 1.3em;
+        font-family: $font-family-serif;
+    }
+}
+
+	.hero-quote {
+		h2{
+			//color: $brand-primary;
+			text-align: center;
+			font-size: 2.6em;
+			padding-top: 1.5em;
+			@media (min-width:$screen-md){
+				font-size: 3.6em;
+			}
+}
+		p {
+				font-family: $font-family-serif;
+				font-size: 1.8em;
+				text-align: center;
+			span {
+				font-family: $font-family-sans-serif;
+				font-size: 0.8em;
+			}
+				@media (min-width:$screen-md){
+					font-size: 2.6em;
+					font-weight: 200;
+				}
+			}
+
+		}
+
+	.discription{
+		font-size: 1.4em;
+		line-height: 2.0em;
+		p{
+			//font-family: $font-family-sans-serif;
+			font-weight: 200;
+		}
+	}
+
+} // - - </.home>
+
+

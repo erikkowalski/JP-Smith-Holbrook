@@ -25,6 +25,6 @@
     }
   },
   "config": {
-    "devUrl": "http://jp-sh:80"
+    "devUrl": "http://jp-sh"
   }
 }
