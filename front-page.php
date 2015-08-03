@@ -9,6 +9,7 @@
 
 <section class="home-search">
 	<aside class="search-box">
+	<h2>Search Listings</h2>
 		<?php the_field('idx_search');?>
 	</aside>
 	<!-- Carousel
@@ -35,8 +36,11 @@
 	</div><!-- /.carousel -->
 </section>
 
+<section class="featured-properties ">
+	<div class="">
+	<h3>Featured Properties</h3>
 <?php while (have_posts()) : the_post(); ?>
 <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
 <?php endwhile; ?>
-
-<?php the_posts_navigation(); ?>
+</div>
+</section>

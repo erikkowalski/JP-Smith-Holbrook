@@ -14,8 +14,9 @@
 	.navbar-nav>li>a{
 		font-size: 1.2em;
 		letter-spacing: 0.05em;
+		font-weight: 400;
 		@media(min-width:$screen-md){
-			font-weight: 300;
+			font-weight: 400;
 			font-size: 1.3em;
 		}
 
