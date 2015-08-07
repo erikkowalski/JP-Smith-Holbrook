@@ -5,8 +5,17 @@
 
 .navbar-brand {
 	padding: 20px 15px;
+	//width: 500px;
 	@media (min-width:$screen-md){
 		padding: 10px 15px;
+	}
+	img {
+		display: inline-block;
+	}
+	.jpsh-brand {
+		font-family: $font-family-serif;
+		color: black;
+		font-weight: 100;
 	}
 }
 

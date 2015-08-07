@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img class="visible-xs visible-sm" src="<?php bloginfo('template_directory'); ?>/dist/images/JPS-H-web-sm.png" alt=""><img class="hidden-xs hidden-sm" src="<?php bloginfo('template_directory'); ?>/dist/images/JPS-H-web.png" alt=""> <span class="sr-only"><?php bloginfo('name'); ?></span></a>
+			<a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img class="visible-xs visible-sm" src="<?php bloginfo('template_directory'); ?>/dist/images/JPS-H-web-sm.png" alt=""><img class="hidden-xs hidden-sm" src="<?php bloginfo('template_directory'); ?>/dist/images/JPS-H-web.png" alt=""> <span class="jpsh-brand"><?php bloginfo('name'); ?></span></a>
 			<p class="visible-xs mobil-number">1&#40;800&#41;350-4774</p>
 		</div>
 
