@@ -37,11 +37,15 @@
 </section>
 
 <section class="featured-properties ">
-	<h3>Featured Properties</h3>
-	<div class="col-md-3"><?php the_field('featured_property_one') ?></div>
-	<div class="col-md-3"><?php the_field('featured_property_two') ?></div>
-	<div class="col-md-3"><?php the_field('featured_property_three') ?></div>
-	<div class="col-md-3"><?php the_field('featured_property_four') ?></div>
+	<div class="headline container">
+		<h3>Featured Properties</h3>
+	</div>
+	<div class="container">
+		<div class="col-md-6 property"><?php the_field('featured_property_one') ?></div>
+		<div class="col-md-6 property"><?php the_field('featured_property_two') ?></div>
+		<div class="col-md-6 property"><?php the_field('featured_property_three') ?></div>
+		<div class="col-md-6 property"><?php the_field('featured_property_four') ?></div>
+	</div>
 </section>
 
 <?php while (have_posts()) : the_post(); ?>

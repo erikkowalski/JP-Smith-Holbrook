@@ -17,6 +17,10 @@ if (has_nav_menu('primary_navigation')) :
 wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootstrap_navwalker(), 'menu_class' => 'nav navbar-nav']);
 endif;
 			?>
+			<ul class="nav navbar-nav navbar-right">
+				<li> <a href="http://jpsmithholbrook.idxbroker.com/idx/userlogin"><span class="glyphicon glyphicon glyphicon-user"></span> Login</a></li>
+
+			</ul>
 		</nav>
 	</div>
 </header>
