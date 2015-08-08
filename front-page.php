@@ -37,10 +37,14 @@
 </section>
 
 <section class="featured-properties ">
-	<div class="">
 	<h3>Featured Properties</h3>
+	<div class="col-md-3"><?php the_field('featured_property_one') ?></div>
+	<div class="col-md-3"><?php the_field('featured_property_two') ?></div>
+	<div class="col-md-3"><?php the_field('featured_property_three') ?></div>
+	<div class="col-md-3"><?php the_field('featured_property_four') ?></div>
+</section>
+
 <?php while (have_posts()) : the_post(); ?>
 <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
 <?php endwhile; ?>
-</div>
-</section>
+
