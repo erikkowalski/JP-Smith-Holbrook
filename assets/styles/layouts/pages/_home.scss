@@ -47,15 +47,6 @@
 
 				}
 			}
-			@media (min-width:$screen-md){
-				max-width: 800px;
-
-				.idx-omnibar-price-container,.idx-omnibar-extra{
-					//display:inline-block;
-					z-index: 1001;
-				}
-			}
-
 			h2 {
 				font-size: 1.4em;
 				background: rgba(255, 255, 255, 0.83);
@@ -66,6 +57,23 @@
 				text-transform: uppercase;
 
 			}
+
+			@media (min-width:$screen-md){
+				max-width: 800px;
+				font-size: 1.2em;
+
+						h2 {
+							font-size: 1.4em;
+							max-width: 260px;
+						}
+
+
+				.idx-omnibar-price-container,.idx-omnibar-extra{
+					//display:inline-block;
+					//z-index: 1001;
+				}
+			}
+
 
 			.idx-omnibar-mini,.idx-omnibar-form {
 				margin-top: 0;
