@@ -5,17 +5,24 @@
 
 .navbar-brand {
 	padding: 20px 15px;
-	//width: 500px;
+
 	@media (min-width:$screen-md){
-		padding: 10px 15px;
+		padding: 6px 15px 10px 15px;
 	}
 	img {
 		display: inline-block;
+		margin-right: 0;
+
+		@media (max-width:$screen-sm){
+			height: 40px;
+		}
 	}
+
 	.jpsh-brand {
 		font-family: $font-family-serif;
 		color: black;
 		font-weight: 100;
+		font-size: 0.8em;
 	}
 }
 
