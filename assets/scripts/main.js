@@ -75,3 +75,8 @@
   $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+//$(document).ready(function(){
+	//$("#IDX-widgetLeadLoginSubmit").addClass( "btn btn-primary" );
+
+//});

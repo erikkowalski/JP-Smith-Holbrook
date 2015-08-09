@@ -18,7 +18,8 @@ wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootst
 endif;
 			?>
 			<ul class="nav navbar-nav navbar-right">
-				<li> <a href="http://jpsmithholbrook.idxbroker.com/idx/userlogin"><span class="glyphicon glyphicon glyphicon-user"></span> Login</a></li>
+				<li> <a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon glyphicon-user"></span> Login</a></li>
+
 
 			</ul>
 		</nav>

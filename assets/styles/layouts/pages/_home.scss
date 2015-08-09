@@ -110,20 +110,20 @@
 		h3 {
 			text-align: center;
 			padding:0 0 0.7em 0;
-			font-family: $font-family-serif;
-			font-weight: 100;
+			//font-family: $font-family-serif;
+			font-weight: 800;
 			color: $brand-primary;
 			border-bottom: 4px solid $brand-primary;
 			margin: 2em 0 1em 0;
 			font-size: 1.8em;
+			text-transform: uppercase;
 			@media (min-width:$screen-sm){
 				font-size: 4em;
-				border-bottom: 6px solid $brand-primary;
+				border-bottom: 3px solid $brand-primary;
 				margin: 2em 15px 1em 15px;
-				padding-bottom: 1em;
-			}
-
-		}
+				padding-bottom: 0.5em;
+			} //@medai
+		} //h3
 		#IDX-showcaseGallery-32499,
 		#IDX-showcaseGallery-32496,
 		#IDX-showcaseGallery-32495,
