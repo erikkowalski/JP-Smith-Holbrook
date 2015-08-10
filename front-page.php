@@ -38,7 +38,7 @@
 
 <section class="featured-properties ">
 	<div class="headline container">
-		<h3>Featured Properties</h3>
+		<h3>Luxury Residences</h3>
 	</div>
 	<div class="container">
 		<div class="col-md-6 property"><?php the_field('featured_property_one') ?></div>
