@@ -18,8 +18,12 @@ wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootst
 endif;
 			?>
 			<ul class="nav navbar-nav navbar-right">
-				<li> <a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon glyphicon-user"></span> Login</a></li>
-
+				<li class="login"> <a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon glyphicon-user"></span> Login</a></li>
+				<li>			<?php
+if (has_nav_menu('contact_navigation')) :
+wp_nav_menu(['theme_location' => 'contact_navigation', 'walker' => new wp_bootstrap_navwalker(), 'menu_class' => 'nav navbar-nav']);
+endif;
+					?></li>
 
 			</ul>
 		</nav>
