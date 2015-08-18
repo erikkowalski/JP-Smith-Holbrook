@@ -48,6 +48,13 @@
 	</div>
 </section>
 
+
+<section class="top-widget container" >
+<div class="col-md-3">
+	<iframe src="http://www.homeinsight.com/Newsletter/Widgets/SubscriberWidget.aspx?a={c6ec2f9a-6913-4a0c-a687-f56263c7abdf}" id="newsletterWidget" frameborder="0" scrolling="no" style="height:380px; width:500px;font-family'brandon-grotesque';" allowtransparency="true"></iframe>
+	</div>
+</section>
+
 <?php while (have_posts()) : the_post(); ?>
 <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
 <?php endwhile; ?>

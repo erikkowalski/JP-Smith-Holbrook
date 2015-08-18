@@ -1,5 +1,9 @@
 <footer class="content-info" role="contentinfo">
+
   <div class="container">
+
+	  <?php get_field('footer_field'); ?>
+
     <?php dynamic_sidebar('sidebar-footer'); ?>
   </div>
 	<!-- Modal -->
