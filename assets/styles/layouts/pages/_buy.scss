@@ -1,3 +1,85 @@
+.buy {
+	.main {
+		margin: 0;
+		padding: 0;
+	}
+	.buy-header {
+		position: relative;
+
+	}
+
 .buy-search{
-	padding: 2em;
+	position: relative;
+
+	.search-box {
+		position: absolute;
+		z-index: 1000;
+		width: 100%;
+		max-width: 260px;
+		top: 90px;
+		left:0;
+		right:0;
+		margin-left:auto;
+		margin-right:auto;
+		display: inline-block;
+		@media (min-width:$screen-sm){
+			max-width: 500px;
+			top: 70%;
+			margin-left: 25%;
+			input {
+				padding-left: 1em;
+
+			}
+		}
+		h2 {
+			font-size: 1.4em;
+			background: rgba(255, 255, 255, 0.83);
+			margin: 0;
+			max-width: 220px;
+			padding: 0.5em 1em;
+			color: $brand-primary;
+			text-transform: uppercase;
+
+		}
+
+		@media (min-width:$screen-md){
+			max-width: 800px;
+			font-size: 1.2em;
+
+			h2 {
+				font-size: 1.4em;
+				max-width: 260px;
+			}
+
+
+			.idx-omnibar-price-container,.idx-omnibar-extra{
+				//display:inline-block;
+				//z-index: 1001;
+			}
+		}
+
+
+		.idx-omnibar-mini,.idx-omnibar-form {
+			margin-top: 0;
+			padding:0;
+			button, input {
+				-webkit-appearance: none;
+				-webkit-border-radius:0;
+				border-radius:0;
+				background: white;
+				border: none;
+			}
+			button {
+				background:#324b72;
+				color: white;
+				max-width: 120px;
+			}
+			input {
+				@media (min-width:$screen-sm){
+
+				}
+			}
+		} //.idx-omnibar-mini,.idx-omnibar-form
+	} //.search-box
 }
+}//.buy
