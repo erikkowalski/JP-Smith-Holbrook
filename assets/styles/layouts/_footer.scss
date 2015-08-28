@@ -47,4 +47,24 @@
 
 	}
 
+	.legal {
+		p{
+			font-family: $sans;
+			font-weight: 100;
+			font-size: 0.8em;
+			color: #7c7c7c;
+			padding: 4em 0.5em;
+			line-height: 1.5em;
+			@media (min-width:$screen-sm){
+				padding: 4em 2em;
+			}
+			@media (min-width:$screen-md){
+				padding: 4em 7em;
+				max-width: 968px;
+				margin: 0 auto;
+			}
+		}
+
+	}
+
 } // ---> /.content-info

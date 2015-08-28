@@ -55,7 +55,10 @@ $link-hover-decoration: underline !default;
 //## Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif: "brandon-grotesque","Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "superclarendon", Georgia, "Times New Roman", Times, serif !default;
+$font-family-serif:       "superclarendon", Georgia, "Times New Roman", Times, serif !default;$font-family-sans-serif: "brandon-grotesque","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$sans: "brandon-grotesque","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serif:       "superclarendon", Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
@@ -368,7 +371,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    80px !default;
+$navbar-height:                    75px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;

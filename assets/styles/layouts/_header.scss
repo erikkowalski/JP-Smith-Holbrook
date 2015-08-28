@@ -4,10 +4,10 @@
 }
 
 .navbar-brand {
-	padding: 20px 15px;
+	padding: 20px 0 20px 15px;
 
-	@media (min-width:$screen-md){
-		padding: 6px 15px 10px 15px;
+	@media (min-width:$screen-sm){
+		padding: 11px 0 10px 15px;
 	}
 	img {
 		display: inline-block;
@@ -17,12 +17,20 @@
 			height: 40px;
 		}
 	}
+	.desk {
+		height: 57px;
+	}
 
 	.jpsh-brand {
 		font-family: $font-family-serif;
 		color: black;
 		font-weight: 100;
 		font-size: 0.8em;
+	}
+}
+.navbar-nav>li>a{
+	@media (min-width:$screen-sm){
+		padding-top: 35px;
 	}
 }
 
@@ -50,6 +58,6 @@
 
 a{
 
-	padding-top: 1.5em;
+	padding-top: 1.8em;
 }
 }

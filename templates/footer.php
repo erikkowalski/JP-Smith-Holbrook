@@ -3,7 +3,21 @@
   <div class="container">
 
 	  <?php get_field('footer_field'); ?>
-
+	  <div class="legal">
+	  <p>&copy; 2015 JPSmith Holbrook, Inc. The information above has been
+	  obtained from sources believed reliable. While we do not doubt its
+	  accuracy (notwithstanding any illustrated images, site or floor plans),
+	  we have not verified it and make no guarantee, warranty or representation
+	  about it. It is your responsibility to independently confirm its accuracy
+	  and completeness. The value of this transaction to you depends on tax
+	  and other factors which should be evaluated by your tax, financial and
+	  legal advisors. You and your advisors should conduct a careful,
+	  independent investigation of the property to determine to your satisfaction
+	  the suitability of the property for your needs. The information contained herein
+	  along with the condition, size and scope of the subject property are subject to
+	  change at anytime without notice or correction of the same.
+	  </p>
+	  </div>
     <?php dynamic_sidebar('sidebar-footer'); ?>
   </div>
 	<!-- Modal -->
