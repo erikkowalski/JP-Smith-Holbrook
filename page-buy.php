@@ -6,6 +6,7 @@
 		<img class="img-responsive" src="<?php the_field("buy_page_header_img"); ?>" alt="luxury kitchen">
 	</div>
 <aside class="search-box">
+<h2>Search Luxury Homes</h2>
 	<?php the_field('buy_page_search'); ?>
 </aside>
 </section>
